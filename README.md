@@ -34,8 +34,8 @@ Ensure you have the following installed:
 ### Steps to Install
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/courier-service-api.git
-cd courier-service-api
+git clone https://github.com/pritom006/courier_service_api.git
+cd courier_service_api
 
 # Create a virtual environment
 python -m venv venv
@@ -187,6 +187,10 @@ python manage.py test packages.tests.test_views
 
 # Run a specific test case
 python manage.py test packages.tests.test_views.PackageViewSetTestCase.test_track_package_missing_tracking_number
+
+# Code Coverage
+coverage run manage.py test
+coverage report -m
 
 
    
