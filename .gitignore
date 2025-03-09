@@ -9,3 +9,7 @@ __pycache__/
 
 # Ignore database 
 db.sqlite3
+
+# Coverage reports
+.coverage
+htmlcov/
